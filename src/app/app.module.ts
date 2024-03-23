@@ -33,7 +33,7 @@ import { productReducer } from './store/products/product.reducer';
     HttpClientInMemoryWebApiModule.forRoot(ProductData),
     UserModule,
     AppRoutingModule,
-    StoreModule.forRoot(productReducer)
+    StoreModule.forRoot({})
   ],
   
   bootstrap: [AppComponent]
