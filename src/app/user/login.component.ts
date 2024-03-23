@@ -4,8 +4,8 @@ import { Router } from '@angular/router';
 
 import { AuthService } from './auth.service';
 import { Store } from '@ngrx/store';
-import { State } from './store/users/user.reducer';
-import { getMaskValue } from './store/users/user.selector';
+import { State } from './state/user.reducer';
+import { getMaskValue } from './state/user.selector';
 
 @Component({
   templateUrl: './login.component.html',

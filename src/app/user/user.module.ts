@@ -5,7 +5,7 @@ import { SharedModule } from '../shared/shared.module';
 
 import { LoginComponent } from './login.component';
 import { StoreModule } from '@ngrx/store';
-import { userReducer } from './store/users/user.reducer';
+import { userReducer } from './state/user.reducer';
 
 const userRoutes: Routes = [
   { path: 'login', component: LoginComponent }
