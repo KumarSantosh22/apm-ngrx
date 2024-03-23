@@ -32,8 +32,7 @@ export class LoginComponent implements OnInit {
     this.store.dispatch({
       type: '[User] Mask Username'
     })
-    // this.maskUserName = !this.maskUserName;
-  }
+  };
 
   login(loginForm: NgForm): void {
     if (loginForm && loginForm.valid) {
