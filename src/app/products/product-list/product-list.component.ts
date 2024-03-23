@@ -5,7 +5,6 @@ import { Subscription } from 'rxjs';
 import { Product } from '../product';
 import { ProductService } from '../product.service';
 import { Store } from '@ngrx/store';
-import { toggleProductCode } from 'src/app/store/products/product.action';
 import { State } from '../store/products/product.reducer';
 import { getShowProductCode } from '../store/products/product.selector';
 
